@@ -29,6 +29,8 @@ sed -i.bak 's/$(wildcard .git),linux/$(wildcard .git),linux_check_disabled/g' "$
 
 # Build all the targets.
 targets=(
+	'windows 386'
+	'windows amd64'
 	'darwin amd64'
 
 	'linux 386'
